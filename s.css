@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container,.card{
+.container{
     height: 800px;
     max-width: 80vw;
     min-width: 80vw;
@@ -20,6 +20,9 @@
 }
 .card{
    scroll-snap-align: start;
+   margin-inline: 5px;
+   max-width: 700px;
+   min-width: 700px;
 }
 #a1{
     background-color: red;
