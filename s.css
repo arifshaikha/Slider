@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container,.card{
+    height: 800px;
+    max-width: 80vw;
+    min-width: 80vw;
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    /* scroll-behavior: smooth; */
+}
+.card{
+   scroll-snap-align: start;
+}
+#a1{
+    background-color: red;
+}
+#a2{
+    background-color: yellow;
+}
+#a3{
+    background-color: blue;
+}
+#a4{
+    background-color: black;
+}
